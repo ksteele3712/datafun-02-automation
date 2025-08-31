@@ -1,5 +1,5 @@
 """
-File: dirbot_kristinesteele.py
+File: kristinesteele_project_setup.py
 
 Purpose: Automate the creation of project folders 
 (and demonstrate basic Python coding skills).
@@ -15,7 +15,8 @@ Author: Kristine Steele
 
 # Import from the Python Standard library
 import pathlib
-import sys      
+import sys
+import time
 
 # Import packages from requirements.txt
 import loguru   
@@ -24,7 +25,6 @@ import loguru
 sys.path.append(str(pathlib.Path(__file__).resolve().parent))
 
 # Import local modules
-# TODO: Import your module in the line below instead
 import utils_kristinesteele
 
 #####################################
@@ -72,16 +72,10 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
     logger.info("FUNCTION: create_folders_for_range()")
     logger.info(f"PARAMETERS: start_year = {start_year}, end_year = {end_year}")
 
-    # TODO: Loop through the years from start_year to end_year (inclusive)
-    # TODO: For each year, create a folder using ROOT_DIR / str(year)
-    # TODO: Log a message each time a folder is created
-    # TODO: Use .mkdir(exist_ok=True) so the program doesn't crash if the folder already exists
-
-    # Example starter structure:
-    # for year in range(start_year, end_year + 1):
-    #     year_path = ROOT_DIR / str(year)
-    #     year_path.mkdir(exist_ok=True)
-    #     logger.info(f"Created folder: {year_path}")
+    for year in range(start_year, end_year + 1):
+        year_path = ROOT_DIR / str(year)
+        year_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {year_path}")
 
 
   
@@ -104,11 +98,10 @@ def create_folders_from_list(folder_list: list) -> None:
     logger.info("FUNCTION: create_folders_from_list()")
     logger.info(f"PARAMETER: folder_list = {folder_list}")
 
-    # TODO: Loop through the list of folder names
-    # TODO: For each name, create a folder using ROOT_DIR / name
-    # TODO: Log a message each time a folder is created
-
-    pass
+    for name in folder_list:
+        folder_path = ROOT_DIR / name
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
 
 
   
@@ -133,9 +126,11 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
     logger.info("FUNCTION: create_prefixed_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, prefix = {prefix}")
 
-    # TODO: Implement this function professionally and remove the temporary pass.
-    # TODO: Use a list comprehension to create the folder names.
-    pass
+    prefixed_names = [prefix + name for name in folder_list]
+    for folder in prefixed_names:
+        folder_path = ROOT_DIR / folder
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
 
   
 
@@ -156,12 +151,15 @@ def create_folders_periodically(duration_seconds: int) -> None:
     logger.info("FUNCTION: create_folders_periodically()")
     logger.info(f"PARAMETER: duration_seconds = {duration_seconds}")
     
-    # TODO: Import time module from the Standard Library at the top if needed
-    # TODO: Use a counter or a list to control how many folders to create
-    # TODO: Wait between folder creations using time.sleep()
-    # TODO: Log each wait and creation
-    
-    pass
+    num_folders = 5  # You can change this number as needed
+    for i in range(num_folders):
+        folder_name = f"periodic_folder_{i+1}"
+        folder_path = ROOT_DIR / folder_name
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
+        if i < num_folders - 1:
+            logger.info(f"Waiting {duration_seconds} seconds before creating next folder...")
+            time.sleep(duration_seconds)
 
 
 #####################################
@@ -196,9 +194,7 @@ def main() -> None:
     logger.info("#####################################")
     logger.info("# Starting execution of main()")
     logger.info("#####################################\n")
-
-    # TODO: Change this to use your module and your get_byline() function instead
-    logger.info(f"Byline: {utils_case.get_byline()}")
+    logger.info(f"Byline: {utils_kristinesteele.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
     create_folders_for_range(start_year=2020, end_year=2023)
