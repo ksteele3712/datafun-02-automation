@@ -17,6 +17,7 @@ Author: Kristine Steele
 import pathlib
 import sys
 import time
+import os
 
 # Import packages from requirements.txt
 import loguru   
@@ -42,6 +43,65 @@ logger.info("Logger loaded.")
 # Create a project path object for the root directory of the project.
 ROOT_DIR = pathlib.Path.cwd()
 
+import os
+
+# Define folder names
+YEARS_FOLDER = 'years'
+OUTPUT_FOLDER = 'output'
+PERIODIC_FOLDER = 'periodic_folder'
+DATA_FOLDER = 'data'
+REGIONS_FOLDER = 'regions'
+
+# Define contents for each folder
+YEARS = [str(year) for year in range(2020, 2024)]
+OUTPUTS = ['output-csv', 'output-excel', 'output-json']
+PERIODIC = [f'periodic_folder_{i+1}' for i in range(5)]
+DATA = ['data-csv', 'data-excel', 'data-json']
+REGIONS = [
+    "North America",
+    "South America",
+    "Europe",
+    "Asia",
+    "Africa",
+    "Oceania",
+    "Middle East"
+]
+
+def create_main_and_subfolders():
+    # Create main folders
+    for folder in [YEARS_FOLDER, OUTPUT_FOLDER, PERIODIC_FOLDER, DATA_FOLDER, REGIONS_FOLDER]:
+        os.makedirs(folder, exist_ok=True)
+
+    # Create year subfolders
+    for year in YEARS:
+        os.makedirs(os.path.join(YEARS_FOLDER, year), exist_ok=True)
+
+    # Create output subfolders
+    for out in OUTPUTS:
+        os.makedirs(os.path.join(OUTPUT_FOLDER, out), exist_ok=True)
+
+    # Create periodic subfolders
+    for pf in PERIODIC:
+        os.makedirs(os.path.join(PERIODIC_FOLDER, pf), exist_ok=True)
+
+    # Create data subfolders
+    for d in DATA:
+        os.makedirs(os.path.join(DATA_FOLDER, d), exist_ok=True)
+
+    # Create region files (as empty .txt files with standardized names)
+    for region in REGIONS:
+        file_name = region.lower().replace(' ', '_') + '.txt'
+        file_path = os.path.join(REGIONS_FOLDER, file_name)
+        with open(file_path, 'w') as f:
+            f.write(f"Region: {region}\n")
+
+    print("All folders and files created as specified.")
+
+def main():
+    create_main_and_subfolders()
+
+if __name__ == '__main__':
+    main()
 REGIONS = [
     "North America", 
     "South America", 
@@ -169,6 +229,7 @@ def create_folders_periodically(duration_seconds: int) -> None:
 # Add options to force lowercase AND remove spaces
 #####################################
 
+
 def create_standardized_folders(folder_list: list, to_lowercase: bool = False, remove_spaces: bool = False) -> None:
     '''
     Create folders from a list of names with options to standardize names.
@@ -182,7 +243,15 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
     logger.info("FUNCTION: create_standardized_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, to_lowercase = {to_lowercase}, remove_spaces = {remove_spaces}")
 
-    pass
+    for folder_name in folder_list:
+        name = folder_name
+        if to_lowercase:
+            name = name.lower()
+        if remove_spaces:
+            name = name.replace(' ', '_')
+        folder_path = ROOT_DIR / name
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
   
 #####################################
 # Define a main() function for this module.
@@ -191,33 +260,19 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
 def main() -> None:
     ''' Main function to demonstrate module capabilities. '''
 
+
     logger.info("#####################################")
     logger.info("# Starting execution of main()")
     logger.info("#####################################\n")
     logger.info(f"Byline: {utils_kristinesteele.get_byline()}")
 
-    # Call function 1 to create folders for a range (e.g. years)
-    create_folders_for_range(start_year=2020, end_year=2023)
+    create_main_and_subfolders()
 
-    # Call function 2 to create folders given a list
-    folder_names = ['data-csv', 'data-excel', 'data-json']
-    create_folders_from_list(folder_names)
 
-    # Call function 3 to create folders using list comprehension
-    folder_names = ['csv', 'excel', 'json']
-    prefix = 'output-'
-    create_prefixed_folders_using_list_comprehension(folder_names, prefix)
 
-    # Call function 4 to create folders periodically using while
-    duration_secs:int = 5  # duration in seconds
-    create_folders_periodically(duration_secs)
-
-    # Call function 5 to create standardized folders, no spaces, lowercase
-    create_standardized_folders(REGIONS, to_lowercase=True, remove_spaces=True)
-
-    logger.info("\n#####################################")
-    logger.info("# Completed execution of main()")
-    logger.info("#####################################")
+logger.info("\n#####################################")
+logger.info("# Completed execution of main()")
+logger.info("#####################################")
 
 
 #####################################

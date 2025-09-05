@@ -613,3 +613,568 @@ Mean Satisfaction Score:    4.80
 2025-08-30 22:33:16.668 | INFO     | __main__:main:219 - # Completed execution of main()
 2025-08-30 22:33:16 | INFO | __main__:220 | #####################################
 2025-08-30 22:33:16.669 | INFO     | __main__:main:220 - #####################################
+2025-09-04 23:54:54 | INFO | utils_kristinesteele:48 | Logger loaded.
+2025-09-04 23:54:54 | INFO | __main__:37 | Logger loaded.
+2025-09-04 23:54:54.379 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-04 23:54:54 | INFO | __main__:195 | #####################################
+2025-09-04 23:54:54.380 | INFO     | __main__:main:195 - #####################################
+2025-09-04 23:54:54 | INFO | __main__:196 | # Starting execution of main()
+2025-09-04 23:54:54.380 | INFO     | __main__:main:196 - # Starting execution of main()
+2025-09-04 23:54:54 | INFO | __main__:197 | #####################################
+
+2025-09-04 23:54:54.380 | INFO     | __main__:main:197 - #####################################
+
+2025-09-04 23:54:54 | INFO | __main__:198 | Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-04 23:54:54.381 | INFO     | __main__:main:198 - Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-04 23:54:54 | INFO | __main__:73 | FUNCTION: create_folders_for_range()
+2025-09-04 23:54:54.381 | INFO     | __main__:create_folders_for_range:73 - FUNCTION: create_folders_for_range()
+2025-09-04 23:54:54 | INFO | __main__:74 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-04 23:54:54.382 | INFO     | __main__:create_folders_for_range:74 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-04 23:54:54 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-04 23:54:54.383 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-04 23:54:54 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-04 23:54:54.384 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-04 23:54:54 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-04 23:54:54.389 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-04 23:54:54 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-04 23:54:54.391 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-04 23:54:54 | INFO | __main__:99 | FUNCTION: create_folders_from_list()
+2025-09-04 23:54:54.392 | INFO     | __main__:create_folders_from_list:99 - FUNCTION: create_folders_from_list()
+2025-09-04 23:54:54 | INFO | __main__:100 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-04 23:54:54.393 | INFO     | __main__:create_folders_from_list:100 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-04 23:54:54 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-04 23:54:54.394 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-04 23:54:54 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-04 23:54:54.395 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-04 23:54:54 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-04 23:54:54.400 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-04 23:54:54 | INFO | __main__:127 | FUNCTION: create_prefixed_folders()
+2025-09-04 23:54:54.401 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:127 - FUNCTION: create_prefixed_folders()
+2025-09-04 23:54:54 | INFO | __main__:128 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-04 23:54:54.401 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:128 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-04 23:54:54 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-04 23:54:54.403 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-04 23:54:54 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-04 23:54:54.404 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-04 23:54:54 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-json
+2025-09-04 23:54:54.405 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-json
+2025-09-04 23:54:54 | INFO | __main__:152 | FUNCTION: create_folders_periodically()
+2025-09-04 23:54:54.405 | INFO     | __main__:create_folders_periodically:152 - FUNCTION: create_folders_periodically()
+2025-09-04 23:54:54 | INFO | __main__:153 | PARAMETER: duration_seconds = 5
+2025-09-04 23:54:54.405 | INFO     | __main__:create_folders_periodically:153 - PARAMETER: duration_seconds = 5
+2025-09-04 23:54:54 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_1
+2025-09-04 23:54:54.406 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_1
+2025-09-04 23:54:54 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-04 23:54:54.406 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-04 23:54:59 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_2
+2025-09-04 23:54:59.408 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_2
+2025-09-04 23:54:59 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-04 23:54:59.409 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-04 23:55:04 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_3
+2025-09-04 23:55:04.411 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_3
+2025-09-04 23:55:04 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-04 23:55:04.411 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-04 23:55:09 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_4
+2025-09-04 23:55:09.412 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_4
+2025-09-04 23:55:09 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-04 23:55:09.413 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-04 23:55:14 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_5
+2025-09-04 23:55:14.414 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_5
+2025-09-04 23:55:14 | INFO | __main__:183 | FUNCTION: create_standardized_folders()
+2025-09-04 23:55:14.415 | INFO     | __main__:create_standardized_folders:183 - FUNCTION: create_standardized_folders()
+2025-09-04 23:55:14 | INFO | __main__:184 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-04 23:55:14.416 | INFO     | __main__:create_standardized_folders:184 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-04 23:55:14 | INFO | __main__:219 | 
+#####################################
+2025-09-04 23:55:14.416 | INFO     | __main__:main:219 - 
+#####################################
+2025-09-04 23:55:14 | INFO | __main__:220 | # Completed execution of main()
+2025-09-04 23:55:14.417 | INFO     | __main__:main:220 - # Completed execution of main()
+2025-09-04 23:55:14 | INFO | __main__:221 | #####################################
+2025-09-04 23:55:14.417 | INFO     | __main__:main:221 - #####################################
+2025-09-05 00:19:26 | INFO | utils_kristinesteele:48 | Logger loaded.
+2025-09-05 00:19:26 | INFO | __main__:37 | Logger loaded.
+2025-09-05 00:19:26.726 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-05 00:19:26 | INFO | __main__:247 | 
+#####################################
+2025-09-05 00:19:26.731 | INFO     | __main__:<module>:247 - 
+#####################################
+2025-09-05 00:19:26 | INFO | __main__:248 | # Completed execution of main()
+2025-09-05 00:19:26.731 | INFO     | __main__:<module>:248 - # Completed execution of main()
+2025-09-05 00:19:26 | INFO | __main__:249 | #####################################
+2025-09-05 00:19:26.731 | INFO     | __main__:<module>:249 - #####################################
+2025-09-05 00:19:26 | INFO | __main__:196 | #####################################
+2025-09-05 00:19:26.731 | INFO     | __main__:main:196 - #####################################
+2025-09-05 00:19:26 | INFO | __main__:197 | # Starting execution of main()
+2025-09-05 00:19:26.732 | INFO     | __main__:main:197 - # Starting execution of main()
+2025-09-05 00:19:26 | INFO | __main__:198 | #####################################
+
+2025-09-05 00:19:26.732 | INFO     | __main__:main:198 - #####################################
+
+2025-09-05 00:19:26 | INFO | __main__:199 | Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-05 00:19:26.732 | INFO     | __main__:main:199 - Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-05 00:19:26 | INFO | __main__:73 | FUNCTION: create_folders_for_range()
+2025-09-05 00:19:26.733 | INFO     | __main__:create_folders_for_range:73 - FUNCTION: create_folders_for_range()
+2025-09-05 00:19:26 | INFO | __main__:74 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-05 00:19:26.733 | INFO     | __main__:create_folders_for_range:74 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-05 00:19:26 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-05 00:19:26.734 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-05 00:19:26 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-05 00:19:26.734 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-05 00:19:26 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-05 00:19:26.735 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-05 00:19:26 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-05 00:19:26.735 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-05 00:19:26 | INFO | __main__:99 | FUNCTION: create_folders_from_list()
+2025-09-05 00:19:26.736 | INFO     | __main__:create_folders_from_list:99 - FUNCTION: create_folders_from_list()
+2025-09-05 00:19:26 | INFO | __main__:100 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-05 00:19:26.738 | INFO     | __main__:create_folders_from_list:100 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-05 00:19:26 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-05 00:19:26.739 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-05 00:19:26 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-05 00:19:26.739 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-05 00:19:26 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-05 00:19:26.740 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-05 00:19:26 | INFO | __main__:127 | FUNCTION: create_prefixed_folders()
+2025-09-05 00:19:26.740 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:127 - FUNCTION: create_prefixed_folders()
+2025-09-05 00:19:26 | INFO | __main__:128 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-05 00:19:26.740 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:128 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-05 00:19:26 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-05 00:19:26.741 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-05 00:19:26 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-05 00:19:26.742 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-05 00:19:26 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-json
+2025-09-05 00:19:26.745 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-json
+2025-09-05 00:19:26 | INFO | __main__:152 | FUNCTION: create_folders_periodically()
+2025-09-05 00:19:26.745 | INFO     | __main__:create_folders_periodically:152 - FUNCTION: create_folders_periodically()
+2025-09-05 00:19:26 | INFO | __main__:153 | PARAMETER: duration_seconds = 5
+2025-09-05 00:19:26.746 | INFO     | __main__:create_folders_periodically:153 - PARAMETER: duration_seconds = 5
+2025-09-05 00:19:26 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_1
+2025-09-05 00:19:26.747 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_1
+2025-09-05 00:19:26 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:19:26.747 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:19:31 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_2
+2025-09-05 00:19:31.749 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_2
+2025-09-05 00:19:31 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:19:31.749 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:19:36 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_3
+2025-09-05 00:19:36.751 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_3
+2025-09-05 00:19:36 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:19:36.752 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:19:41 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_4
+2025-09-05 00:19:41.754 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_4
+2025-09-05 00:19:41 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:19:41.754 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:19:46 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_5
+2025-09-05 00:19:46.756 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_5
+2025-09-05 00:19:46 | INFO | __main__:184 | FUNCTION: create_standardized_folders()
+2025-09-05 00:19:46.756 | INFO     | __main__:create_standardized_folders:184 - FUNCTION: create_standardized_folders()
+2025-09-05 00:19:46 | INFO | __main__:185 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-05 00:19:46.756 | INFO     | __main__:create_standardized_folders:185 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-05 00:24:46 | INFO | utils_kristinesteele:48 | Logger loaded.
+2025-09-05 00:24:46 | INFO | __main__:37 | Logger loaded.
+2025-09-05 00:24:46.450 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-05 00:24:46 | INFO | __main__:230 | 
+#####################################
+2025-09-05 00:24:46.451 | INFO     | __main__:<module>:230 - 
+#####################################
+2025-09-05 00:24:46 | INFO | __main__:231 | # Completed execution of main()
+2025-09-05 00:24:46.452 | INFO     | __main__:<module>:231 - # Completed execution of main()
+2025-09-05 00:24:46 | INFO | __main__:232 | #####################################
+2025-09-05 00:24:46.452 | INFO     | __main__:<module>:232 - #####################################
+2025-09-05 00:24:46 | INFO | __main__:204 | #####################################
+2025-09-05 00:24:46.452 | INFO     | __main__:main:204 - #####################################
+2025-09-05 00:24:46 | INFO | __main__:205 | # Starting execution of main()
+2025-09-05 00:24:46.453 | INFO     | __main__:main:205 - # Starting execution of main()
+2025-09-05 00:24:46 | INFO | __main__:206 | #####################################
+
+2025-09-05 00:24:46.453 | INFO     | __main__:main:206 - #####################################
+
+2025-09-05 00:24:46 | INFO | __main__:207 | Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-05 00:24:46.453 | INFO     | __main__:main:207 - Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-05 00:24:46 | INFO | __main__:73 | FUNCTION: create_folders_for_range()
+2025-09-05 00:24:46.454 | INFO     | __main__:create_folders_for_range:73 - FUNCTION: create_folders_for_range()
+2025-09-05 00:24:46 | INFO | __main__:74 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-05 00:24:46.454 | INFO     | __main__:create_folders_for_range:74 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-05 00:24:46 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-05 00:24:46.455 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-05 00:24:46 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-05 00:24:46.456 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-05 00:24:46 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-05 00:24:46.456 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-05 00:24:46 | INFO | __main__:79 | Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-05 00:24:46.457 | INFO     | __main__:create_folders_for_range:79 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-05 00:24:46 | INFO | __main__:99 | FUNCTION: create_folders_from_list()
+2025-09-05 00:24:46.457 | INFO     | __main__:create_folders_from_list:99 - FUNCTION: create_folders_from_list()
+2025-09-05 00:24:46 | INFO | __main__:100 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-05 00:24:46.457 | INFO     | __main__:create_folders_from_list:100 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-05 00:24:46 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-05 00:24:46.458 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-05 00:24:46 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-05 00:24:46.459 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-05 00:24:46 | INFO | __main__:105 | Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-05 00:24:46.460 | INFO     | __main__:create_folders_from_list:105 - Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-05 00:24:46 | INFO | __main__:127 | FUNCTION: create_prefixed_folders()
+2025-09-05 00:24:46.461 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:127 - FUNCTION: create_prefixed_folders()
+2025-09-05 00:24:46 | INFO | __main__:128 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-05 00:24:46.461 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:128 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-05 00:24:46 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-05 00:24:46.462 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-05 00:24:46 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-05 00:24:46.462 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-05 00:24:46 | INFO | __main__:134 | Created folder: C:\Repos\datafun-02-automation\output-json
+2025-09-05 00:24:46.463 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:134 - Created folder: C:\Repos\datafun-02-automation\output-json
+2025-09-05 00:24:46 | INFO | __main__:152 | FUNCTION: create_folders_periodically()
+2025-09-05 00:24:46.463 | INFO     | __main__:create_folders_periodically:152 - FUNCTION: create_folders_periodically()
+2025-09-05 00:24:46 | INFO | __main__:153 | PARAMETER: duration_seconds = 5
+2025-09-05 00:24:46.463 | INFO     | __main__:create_folders_periodically:153 - PARAMETER: duration_seconds = 5
+2025-09-05 00:24:46 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_1
+2025-09-05 00:24:46.464 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_1
+2025-09-05 00:24:46 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:24:46.464 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:24:51 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_2
+2025-09-05 00:24:51.466 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_2
+2025-09-05 00:24:51 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:24:51.467 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:24:56 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_3
+2025-09-05 00:24:56.468 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_3
+2025-09-05 00:24:56 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:24:56.469 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:25:01 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_4
+2025-09-05 00:25:01.470 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_4
+2025-09-05 00:25:01 | INFO | __main__:162 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:25:01.471 | INFO     | __main__:create_folders_periodically:162 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:25:06 | INFO | __main__:160 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_5
+2025-09-05 00:25:06.473 | INFO     | __main__:create_folders_periodically:160 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_5
+2025-09-05 00:25:06 | INFO | __main__:184 | FUNCTION: create_standardized_folders()
+2025-09-05 00:25:06.474 | INFO     | __main__:create_standardized_folders:184 - FUNCTION: create_standardized_folders()
+2025-09-05 00:25:06 | INFO | __main__:185 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-05 00:25:06.475 | INFO     | __main__:create_standardized_folders:185 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-05 00:25:06 | INFO | __main__:195 | Created folder: C:\Repos\datafun-02-automation\north_america
+2025-09-05 00:25:06.476 | INFO     | __main__:create_standardized_folders:195 - Created folder: C:\Repos\datafun-02-automation\north_america
+2025-09-05 00:25:06 | INFO | __main__:195 | Created folder: C:\Repos\datafun-02-automation\south_america
+2025-09-05 00:25:06.476 | INFO     | __main__:create_standardized_folders:195 - Created folder: C:\Repos\datafun-02-automation\south_america
+2025-09-05 00:25:06 | INFO | __main__:195 | Created folder: C:\Repos\datafun-02-automation\europe
+2025-09-05 00:25:06.477 | INFO     | __main__:create_standardized_folders:195 - Created folder: C:\Repos\datafun-02-automation\europe
+2025-09-05 00:25:06 | INFO | __main__:195 | Created folder: C:\Repos\datafun-02-automation\asia
+2025-09-05 00:25:06.477 | INFO     | __main__:create_standardized_folders:195 - Created folder: C:\Repos\datafun-02-automation\asia
+2025-09-05 00:25:06 | INFO | __main__:195 | Created folder: C:\Repos\datafun-02-automation\africa
+2025-09-05 00:25:06.478 | INFO     | __main__:create_standardized_folders:195 - Created folder: C:\Repos\datafun-02-automation\africa
+2025-09-05 00:25:06 | INFO | __main__:195 | Created folder: C:\Repos\datafun-02-automation\oceania
+2025-09-05 00:25:06.478 | INFO     | __main__:create_standardized_folders:195 - Created folder: C:\Repos\datafun-02-automation\oceania
+2025-09-05 00:25:06 | INFO | __main__:195 | Created folder: C:\Repos\datafun-02-automation\middle_east
+2025-09-05 00:25:06.479 | INFO     | __main__:create_standardized_folders:195 - Created folder: C:\Repos\datafun-02-automation\middle_east
+2025-09-05 00:30:20 | INFO | utils_kristinesteele:48 | Logger loaded.
+2025-09-05 00:30:20 | INFO | __main__:37 | Logger loaded.
+2025-09-05 00:30:20.801 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-05 00:30:20 | INFO | __main__:289 | 
+#####################################
+2025-09-05 00:30:20.814 | INFO     | __main__:<module>:289 - 
+#####################################
+2025-09-05 00:30:20 | INFO | __main__:290 | # Completed execution of main()
+2025-09-05 00:30:20.815 | INFO     | __main__:<module>:290 - # Completed execution of main()
+2025-09-05 00:30:20 | INFO | __main__:291 | #####################################
+2025-09-05 00:30:20.815 | INFO     | __main__:<module>:291 - #####################################
+2025-09-05 00:30:20 | INFO | __main__:263 | #####################################
+2025-09-05 00:30:20.815 | INFO     | __main__:main:263 - #####################################
+2025-09-05 00:30:20 | INFO | __main__:264 | # Starting execution of main()
+2025-09-05 00:30:20.815 | INFO     | __main__:main:264 - # Starting execution of main()
+2025-09-05 00:30:20 | INFO | __main__:265 | #####################################
+
+2025-09-05 00:30:20.816 | INFO     | __main__:main:265 - #####################################
+
+2025-09-05 00:30:20 | INFO | __main__:266 | Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-05 00:30:20.816 | INFO     | __main__:main:266 - Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-05 00:30:20 | INFO | __main__:132 | FUNCTION: create_folders_for_range()
+2025-09-05 00:30:20.816 | INFO     | __main__:create_folders_for_range:132 - FUNCTION: create_folders_for_range()
+2025-09-05 00:30:20 | INFO | __main__:133 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-05 00:30:20.817 | INFO     | __main__:create_folders_for_range:133 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-05 00:30:20 | INFO | __main__:138 | Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-05 00:30:20.817 | INFO     | __main__:create_folders_for_range:138 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-05 00:30:20 | INFO | __main__:138 | Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-05 00:30:20.818 | INFO     | __main__:create_folders_for_range:138 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-05 00:30:20 | INFO | __main__:138 | Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-05 00:30:20.819 | INFO     | __main__:create_folders_for_range:138 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-05 00:30:20 | INFO | __main__:138 | Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-05 00:30:20.820 | INFO     | __main__:create_folders_for_range:138 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-05 00:30:20 | INFO | __main__:158 | FUNCTION: create_folders_from_list()
+2025-09-05 00:30:20.822 | INFO     | __main__:create_folders_from_list:158 - FUNCTION: create_folders_from_list()
+2025-09-05 00:30:20 | INFO | __main__:159 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-05 00:30:20.822 | INFO     | __main__:create_folders_from_list:159 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-05 00:30:20 | INFO | __main__:164 | Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-05 00:30:20.823 | INFO     | __main__:create_folders_from_list:164 - Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-05 00:30:20 | INFO | __main__:164 | Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-05 00:30:20.825 | INFO     | __main__:create_folders_from_list:164 - Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-05 00:30:20 | INFO | __main__:164 | Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-05 00:30:20.826 | INFO     | __main__:create_folders_from_list:164 - Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-05 00:30:20 | INFO | __main__:186 | FUNCTION: create_prefixed_folders()
+2025-09-05 00:30:20.826 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:186 - FUNCTION: create_prefixed_folders()
+2025-09-05 00:30:20 | INFO | __main__:187 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-05 00:30:20.826 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:187 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-05 00:30:20 | INFO | __main__:193 | Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-05 00:30:20.827 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:193 - Created folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-05 00:30:20 | INFO | __main__:193 | Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-05 00:30:20.829 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:193 - Created folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-05 00:30:20 | INFO | __main__:193 | Created folder: C:\Repos\datafun-02-automation\output-json
+2025-09-05 00:30:20.830 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:193 - Created folder: C:\Repos\datafun-02-automation\output-json
+2025-09-05 00:30:20 | INFO | __main__:211 | FUNCTION: create_folders_periodically()
+2025-09-05 00:30:20.830 | INFO     | __main__:create_folders_periodically:211 - FUNCTION: create_folders_periodically()
+2025-09-05 00:30:20 | INFO | __main__:212 | PARAMETER: duration_seconds = 5
+2025-09-05 00:30:20.831 | INFO     | __main__:create_folders_periodically:212 - PARAMETER: duration_seconds = 5
+2025-09-05 00:30:20 | INFO | __main__:219 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_1
+2025-09-05 00:30:20.831 | INFO     | __main__:create_folders_periodically:219 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_1
+2025-09-05 00:30:20 | INFO | __main__:221 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:30:20.832 | INFO     | __main__:create_folders_periodically:221 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:30:25 | INFO | __main__:219 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_2
+2025-09-05 00:30:25.833 | INFO     | __main__:create_folders_periodically:219 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_2
+2025-09-05 00:30:25 | INFO | __main__:221 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:30:25.834 | INFO     | __main__:create_folders_periodically:221 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:30:30 | INFO | __main__:219 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_3
+2025-09-05 00:30:30.836 | INFO     | __main__:create_folders_periodically:219 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_3
+2025-09-05 00:30:30 | INFO | __main__:221 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:30:30.836 | INFO     | __main__:create_folders_periodically:221 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:30:35 | INFO | __main__:219 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_4
+2025-09-05 00:30:35.841 | INFO     | __main__:create_folders_periodically:219 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_4
+2025-09-05 00:30:35 | INFO | __main__:221 | Waiting 5 seconds before creating next folder...
+2025-09-05 00:30:35.873 | INFO     | __main__:create_folders_periodically:221 - Waiting 5 seconds before creating next folder...
+2025-09-05 00:30:40 | INFO | __main__:219 | Created folder: C:\Repos\datafun-02-automation\periodic_folder_5
+2025-09-05 00:30:40.903 | INFO     | __main__:create_folders_periodically:219 - Created folder: C:\Repos\datafun-02-automation\periodic_folder_5
+2025-09-05 00:30:40 | INFO | __main__:243 | FUNCTION: create_standardized_folders()
+2025-09-05 00:30:40.904 | INFO     | __main__:create_standardized_folders:243 - FUNCTION: create_standardized_folders()
+2025-09-05 00:30:40 | INFO | __main__:244 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-05 00:30:40.904 | INFO     | __main__:create_standardized_folders:244 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-05 00:30:40 | INFO | __main__:254 | Created folder: C:\Repos\datafun-02-automation\north_america
+2025-09-05 00:30:40.904 | INFO     | __main__:create_standardized_folders:254 - Created folder: C:\Repos\datafun-02-automation\north_america
+2025-09-05 00:30:40 | INFO | __main__:254 | Created folder: C:\Repos\datafun-02-automation\south_america
+2025-09-05 00:30:40.905 | INFO     | __main__:create_standardized_folders:254 - Created folder: C:\Repos\datafun-02-automation\south_america
+2025-09-05 00:30:40 | INFO | __main__:254 | Created folder: C:\Repos\datafun-02-automation\europe
+2025-09-05 00:30:40.905 | INFO     | __main__:create_standardized_folders:254 - Created folder: C:\Repos\datafun-02-automation\europe
+2025-09-05 00:30:40 | INFO | __main__:254 | Created folder: C:\Repos\datafun-02-automation\asia
+2025-09-05 00:30:40.906 | INFO     | __main__:create_standardized_folders:254 - Created folder: C:\Repos\datafun-02-automation\asia
+2025-09-05 00:30:40 | INFO | __main__:254 | Created folder: C:\Repos\datafun-02-automation\africa
+2025-09-05 00:30:40.906 | INFO     | __main__:create_standardized_folders:254 - Created folder: C:\Repos\datafun-02-automation\africa
+2025-09-05 00:30:40 | INFO | __main__:254 | Created folder: C:\Repos\datafun-02-automation\oceania
+2025-09-05 00:30:40.907 | INFO     | __main__:create_standardized_folders:254 - Created folder: C:\Repos\datafun-02-automation\oceania
+2025-09-05 00:30:40 | INFO | __main__:254 | Created folder: C:\Repos\datafun-02-automation\middle_east
+2025-09-05 00:30:40.907 | INFO     | __main__:create_standardized_folders:254 - Created folder: C:\Repos\datafun-02-automation\middle_east
+2025-09-05 00:34:58 | INFO | utils_kristinesteele:48 | Logger loaded.
+2025-09-05 00:34:58 | INFO | __main__:37 | Logger loaded.
+2025-09-05 00:34:58.216 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-05 00:34:58 | INFO | __main__:273 | 
+#####################################
+2025-09-05 00:34:58.226 | INFO     | __main__:<module>:273 - 
+#####################################
+2025-09-05 00:34:58 | INFO | __main__:274 | # Completed execution of main()
+2025-09-05 00:34:58.227 | INFO     | __main__:<module>:274 - # Completed execution of main()
+2025-09-05 00:34:58 | INFO | __main__:275 | #####################################
+2025-09-05 00:34:58.227 | INFO     | __main__:<module>:275 - #####################################
+2025-09-05 00:34:58 | INFO | __main__:264 | #####################################
+2025-09-05 00:34:58.227 | INFO     | __main__:main:264 - #####################################
+2025-09-05 00:34:58 | INFO | __main__:265 | # Starting execution of main()
+2025-09-05 00:34:58.228 | INFO     | __main__:main:265 - # Starting execution of main()
+2025-09-05 00:34:58 | INFO | __main__:266 | #####################################
+
+2025-09-05 00:34:58.228 | INFO     | __main__:main:266 - #####################################
+
+2025-09-05 00:34:58 | INFO | __main__:267 | Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-05 00:34:58.228 | INFO     | __main__:main:267 - Byline: 
+**********************************************************
+DataLight — Project Header
+**********************************************************
+Author:                     Kristine Steele
+Motto:                      Clean and Precise, From Data to Advice.
+Location:                   Lees Summit, Missouri
+Office Locations:           ['Lenexa', 'Leawood', 'Overland Park', 'Kansas City', 'Olathe']
+Count of Locations:         5
+Years Active:               5
+Number of Employees:        25
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
