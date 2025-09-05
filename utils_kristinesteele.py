@@ -66,9 +66,9 @@ number_of_employees: int = 25
 # ----------------------------------
 # Define String variables
 # ----------------------------------
-author: str = "Kristine Steele"  # TODO: change to your name
-organization: str = "DataLight"  # TODO: change the org name
-motto: str = "Clean and Precise, From Data to Advice."  # TODO: change the motto
+author: str = "Kristine Steele"   
+organization: str = "DataLight"  
+motto: str = "Clean and Precise, From Data to Advice." 
 location: str = "Lees Summit, Missouri"
 # ----------------------------------
 # Define List variables
